@@ -1,0 +1,20 @@
+IO_LOC "CLOCK" 35;
+IO_PORT "CLOCK" IO_TYPE=LVCMOS33;
+
+IO_LOC "da_mclk" 47;
+IO_PORT "da_mclk IO_TYPE=LVCMOS33;
+IO_LOC "da_lrclk" 41;
+IO_PORT "da_lrclk IO_TYPE=LVCMOS33;
+IO_LOC "da_sclk" 38;
+IO_PORT "da_sclk IO_TYPE=LVCMOS33;
+IO_LOC "da_sdin" 40;
+IO_PORT "da_sdin IO_TYPE=LVCMOS33;
+
+IO_LOC "ad_mclk" 36;
+IO_PORT "ad_mclk IO_TYPE=LVCMOS33;
+IO_LOC "ad_lrclk" 42;
+IO_PORT "ad_lrclk IO_TYPE=LVCMOS33;
+IO_LOC "ad_sclk" 39;
+IO_PORT "ad_sclk IO_TYPE=LVCMOS33;
+IO_LOC "ad_sdout" 37;
+IO_PORT "ad_sdout IO_TYPE=LVCMOS33;

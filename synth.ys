@@ -1,0 +1,3 @@
+read_verilog rpll.v
+ghdl --std=08 speaker.vhd -e speaker
+synth_gowin -top speaker -json speaker-synth.json -noalu -nodffe
